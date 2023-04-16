@@ -59,13 +59,4 @@ public class CustomSortedList<T extends Comparable<T>> {
     public List<T> getAll() {
         return Arrays.asList(arr);
     }
-
-    @Override
-    public String toString() {
-        StringBuilder asText = new StringBuilder();
-        for (int i = 0; i < size; i++) {
-            asText.append(arr[i] + "\n");
-        }
-        return asText.toString();
-    }
 }

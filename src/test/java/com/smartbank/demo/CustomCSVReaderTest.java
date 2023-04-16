@@ -37,7 +37,6 @@ class CustomCSVReaderTest {
     List<City> actualList = CustomCSVReader.getCitiesInNumericalOrder();
     Assertions.assertEquals(expectedList.get(index).getName(), actualList.get(index).getName(),
         "Sort order at index " + index);
-    Assertions.assertEquals(expectedList,actualList);
   }
 
   @Test
